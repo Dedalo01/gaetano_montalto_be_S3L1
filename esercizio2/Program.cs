@@ -77,7 +77,12 @@ namespace esercizio2
                         Console.ReadKey();
                         isExit = true;
                         break;
+
+                    default:
+                        Console.WriteLine("Opzione non valida");
+                        break;
                 }
+
                 Console.Clear();
             } while (!isExit);
         }
